@@ -20,35 +20,43 @@ Microsoft Azure
 Azure App Service
 Application Insights
 Azure Monitor
+
 ⚙️ Step-by-Step Implementation
+
 1. Create Resource Group
 Go to Azure Portal
 Search → Resource Groups → Create
 Name: rg-app-monitoring
+
 2. Create App Service
 Search → App Services → Create
 Runtime: Node.js / .NET (any)
 Region: same as resource group
 Click Create
+
 3. Deploy Sample App
 Go to App Service → Deployment Center
 Choose Local Git / Sample Code
 Deploy default app
+
 4. Enable Application Insights
 Go to App Service → Application Insights
 Click Turn On
 Create new instance
+
 5. Monitor Application
 Go to Application Insights
 Check:
 Live Metrics
 Failures
 Performance
+
 6. Configure Alerts
 Go to Azure Monitor → Alerts
 Create Alert Rule:
 Condition: CPU / Response Time
 Action: Email notification
+
 📊 Outcome
 Successfully monitored application performance and failures
 Configured alerts for proactive issue detection
