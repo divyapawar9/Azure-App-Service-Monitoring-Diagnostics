@@ -1,12 +1,5 @@
 
-🚀 PROJECT : Azure App Service Monitoring & Diagnostics
 
-🔹 Services which Used
-App Service basics (PaaS)
-Application Insights
-Monitoring + alerts 
-
-📘 GitHub README Content 
 📌 Project Title
 
 Azure App Service Monitoring & Diagnostics
@@ -26,32 +19,36 @@ Azure Monitor
 1. Create Resource Group
 Go to Azure Portal
 Search → Resource Groups → Create
+
 Name: rg-app-monitoring
 
-2. Create App Service
+3. Create App Service
 Search → App Services → Create
-Runtime: Node.js / .NET (any)
+
+Runtime: Node.js
+
 Region: same as resource group
+
 Click Create
 
-3. Deploy Sample App
+4. Deploy Sample App
 Go to App Service → Deployment Center
 Choose Local Git / Sample Code
 Deploy default app
 
-4. Enable Application Insights
+5. Enable Application Insights
 Go to App Service → Application Insights
 Click Turn On
 Create new instance
 
-5. Monitor Application
+6. Monitor Application
 Go to Application Insights
 Check:
 Live Metrics
 Failures
 Performance
 
-6. Configure Alerts
+7. Configure Alerts
 Go to Azure Monitor → Alerts
 Create Alert Rule:
 Condition: CPU / Response Time
