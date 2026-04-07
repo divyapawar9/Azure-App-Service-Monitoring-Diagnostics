@@ -17,44 +17,62 @@ Azure Monitor
 ⚙️ Step-by-Step Implementation
 
 1. Create Resource Group
-Go to Azure Portal
-Search → Resource Groups → Create
-
-Name: rg-app-monitoring
+   Go to Azure Portal
+   
+   Search → Resource Groups → Create
+   
+   Name: rg-app-monitoring
 
 3. Create App Service
-Search → App Services → Create
+   Search → App Services → Create
 
-Runtime: Node.js
+   Runtime: Node.js
 
-Region: same as resource group
+   Region: same as resource group
 
-Click Create
+   Click Create
 
 4. Deploy Sample App
-Go to App Service → Deployment Center
-Choose Local Git / Sample Code
-Deploy default app
+   
+   Go to App Service → Deployment Center
+   
+   Choose Local Git / Sample Code
+   
+   Deploy default app
 
-5. Enable Application Insights
-Go to App Service → Application Insights
-Click Turn On
-Create new instance
+6. Enable Application Insights
+   
+   Go to App Service → Application Insights
+   
+   Click Turn On
+   
+   Create new instance
 
-6. Monitor Application
-Go to Application Insights
-Check:
-Live Metrics
-Failures
-Performance
+8. Monitor Application
+   
+   Go to Application Insights
 
-7. Configure Alerts
+   Check:
+   
+   Live Metrics
+   
+   Failures
+   
+   Performance
+   
+
+10. Configure Alerts
+    
 Go to Azure Monitor → Alerts
+
 Create Alert Rule:
+
 Condition: CPU / Response Time
+
 Action: Email notification
 
-📊 Outcome
+📊 Outcome:
+
 Successfully monitored application performance and failures
 Configured alerts for proactive issue detection
 Gained hands-on experience with Azure monitoring tools
